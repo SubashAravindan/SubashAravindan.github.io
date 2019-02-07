@@ -1,0 +1,52 @@
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #020202;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #111;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#comingSoon {
+  position: relative;
+  left: 50%;
+  top: 30%;
+  z-index: 2;
+  width: 60%;
+  min-width: 400px;
+  height: 40%;
+  background: rgba(219, 211, 211, 0.6);
+  border-radius: 20px;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 3rem;
+  display:flex;
+  align-items: center;
+}
+
+#comingSoon p{
+  width: 100%;   
+}
