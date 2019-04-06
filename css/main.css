@@ -77,8 +77,8 @@ canvas {
   flex: 0 35%;
   min-width: 320px;
   height: 80%;
-  /* background: rgba(219, 211, 211, 0.8); */
-  background: #020202;
+  background: rgba(219, 211, 211, 0);
+  /* background: #020202; */
   z-index: 3;
   border-radius: 20px;
   text-align: center;
