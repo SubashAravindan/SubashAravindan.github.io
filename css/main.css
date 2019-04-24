@@ -12,7 +12,7 @@
 }
 
 #profile-image{
-  border-radius: 100px;
+  border-radius: 500px;
   height: 100%;
 }
 .profile-image-container{
@@ -89,8 +89,9 @@ canvas {
 }
 
 @media (max-width:600px){
+
   #name{
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
   #description{
     font-size: 0.35em;
@@ -101,3 +102,13 @@ canvas {
   cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur221.cur), auto !important;
 } */
 
+#link-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#link-container a{
+  font-size: 1.8em;
+  color: #d5d819;
+  pointer-events: all;
+}
